@@ -13,7 +13,7 @@ if (process.env.NODE_ENV === "production") {
 
 require('./routes/api-routes')(app);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://<user>:<password1>@ds141464.mlab.com:41464/heroku_9wbwl2v4"); //CHANGE
+mongoose.connect(process.env.MONGODB_URI || "mongodb://<user>:<password1>@ds141464.mlab.com:41464/heroku_9wbwl2v4");
 
 app.listen(PORT, function() {
     console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
