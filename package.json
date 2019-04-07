@@ -1,0 +1,20 @@
+{
+  "name": "soundcloud-clone",
+  "version": "1.0.0",
+  "description": "a simple recreation of major features of soundcloud for practice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WestonDease/Soundcloud-Clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WestonDease/Soundcloud-Clone/issues"
+  },
+  "homepage": "https://github.com/WestonDease/Soundcloud-Clone#readme"
+}
